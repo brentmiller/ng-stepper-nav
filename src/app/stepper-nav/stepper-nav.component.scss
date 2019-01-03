@@ -1,0 +1,70 @@
+$icon-size: 2.5rem;
+$standard-spacing: 1rem;
+$info-border-color: #b8daff;
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  padding: $standard-spacing;
+  position: relative;
+}
+
+div.icon {
+  align-items: center;
+  border: 0.0625rem solid;
+  border-radius: 50%;
+  display: flex;
+  flex: 0 0 $icon-size;
+  font-size: calc(#{$icon-size} / 2);
+  font-weight: 500;
+  height: $icon-size;
+  justify-content: center;
+  margin-right: $standard-spacing;
+  position: relative;
+}
+
+div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.325rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+li.final-step div.icon {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+li:not(.final-step) {
+  &::before {
+    background-color: $info-border-color;
+    content: '';
+    height: 100%;
+    left: 2.25rem;
+    position: absolute;
+    top: $standard-spacing;
+    width: 0.125rem;
+  }
+  div.icon {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: $info-border-color;
+  }
+}

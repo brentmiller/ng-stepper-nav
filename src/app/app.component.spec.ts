@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-stepper-nav'`, () => {
+  it(`should have as title 'NgStepperNav'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-stepper-nav');
+    expect(app.title).toEqual('NgStepperNav');
   });
 
   it('should render title in a h1 tag', () => {
