@@ -1,6 +1,6 @@
 # ng-stepper-nav
 
-An Angular component which displays a stacked sequence of steps to either provide navigation or merely to display information. The Material Design language's [List Component](https://material.io/design/components/lists.html) inspired this component's visual design.
+An Angular component which displays a stacked sequence of steps. Use it to provide navigation, display information, or both. The Material Design language's [List Component](https://material.io/design/components/lists.html) inspired this component's visual design.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
