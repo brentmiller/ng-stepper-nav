@@ -1,0 +1,12 @@
+<ul *ngIf="steps?.length > 0">
+  <li
+    class="{{ isLast ? 'final-step' : '' }}"
+    *ngFor="let step of steps; index as i; last as isLast"
+  >
+    <div class="icon">{{ isLast ? '&#10003;' : i + 1 }}</div>
+    <div class="text">
+      <h3>{{ step.primaryText }}</h3>
+      <small *ngIf="step.secondaryText">{{ step.secondaryText }}</small>
+    </div>
+  </li>
+</ul>
