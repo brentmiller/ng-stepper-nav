@@ -1,7 +1,7 @@
 {
   "name": "ng-stepper-nav",
   "version": "1.0.1",
-  "description": "An Angular component which displays a stacked sequence of steps for navigation or merely to display information.",
+  "description": "An Angular component which displays a vertically stacked sequence of steps.",
   "author": "Brent Miller <brent.miller2@gmail.com> (https://www.linkedin.com/in/millerbrent/)",
   "license": "MIT",
   "keywords": [
